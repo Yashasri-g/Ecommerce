@@ -32,7 +32,9 @@ nav .logo a {
 
 nav .menu {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    align-items: center;
+    padding-left: 140px;
 }
 
 nav .menu a {
@@ -118,7 +120,6 @@ footer p {
     background-color: #e9e9e9;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .product-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -130,7 +131,6 @@ footer p {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -141,9 +141,7 @@ footer p {
         flex-direction: column;
         gap: 10px;
     }
-}
-
     .top-bar p {
         font-size: 0.8em;
     }
-    
+}
