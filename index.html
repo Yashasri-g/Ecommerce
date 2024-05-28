@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New me collections</title>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        .product-item img {
+            width: 200px; /* Set a fixed width */
+            height: 250px; /* Set a fixed height */
+            object-fit: cover; /* Ensure images cover the area without distortion */
+        }
+        .product-item {
+            text-align: center;
+            margin: 20px;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .actions {
+            margin-top: 10px;
+        }
+        .offers {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .offer {
+            position: relative;
+            width: 32%;
+        }
+        .offer img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .offer-details {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .offer-details h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .offer-details p {
+            margin: 5px 0;
+        }
+        .offer-details .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p style="font-size: medium;"><b>Free shipping | Many more exciting offers</b></p>
+        </div>
+        <nav>
+            <div class="logo">
+                <a href="#">New Me</a>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Kids</a>
+                <a href="#">New In</a>
+                <a href="#">Stores</a>
+            </div>
+            <div class="user-actions">
+                <a href="#" ><b>LOGIN</b></a>
+                <br>
+                <a href="#">Account</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Cart (0)</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="logo.png" alt="Banner">
+        </section>
+        <section class="products">
+            <h2>New Arrivals</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="midrise.jpg" alt="Product 1">
+                    <h3>Mid Rise Pants</h3>
+                    <p>₹299.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="solidtop.jpg" alt="Product 2">
+                    <h3>Slim Fit Solid Top</h3>
+                    <p>₹499.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="causalkurthi.jpg" alt="Product 3">
+                    <h3>Casual Wear Kurti</h3>
+                    <p>₹799.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="anarkalidress.jpg" alt="Product 4">
+                    <h3>Anarkali Dress</h3>
+                    <p>₹999.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="designersaree.jpg" alt="Product 5">
+                    <h3>Designer Saree</h3>
+                    <p>₹1999.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="partygown.jpg" alt="Product 6">
+                    <h3>Party Wear Gown</h3>
+                    <p>₹2499.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="ethnicskirt.jpg" alt="Product 7">
+                    <h3>Ethnic Skirt</h3>
+                    <p>₹899.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="formalblazer.jpg" alt="Product 8">
+                    <h3>Formal Blazer</h3>
+                    <p>₹1499.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="printedtshirt.jpg" alt="Product 9">
+                    <h3>Printed T-shirt</h3>
+                    <p>₹499.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="denimjacket.jpg" alt="Product 10">
+                    <h3>Denim Jacket</h3>
+                    <p>₹1799.00</p>
+                    <div class="actions">
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn add-to-wishlist">Add to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="offer">
+                <img src="offer1.jpg" alt="Offer 1">
+                <div class="offer-details">
+                    <h3>Shop your fashion needs</h3>
+                    <p>with Latest & Trendy Choices</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="offer">
+                <img src="offer2.jpg" alt="Offer 2">
+                <div class="offer-details">
+                    <h3>Exclusive Summer Collection</h3>
+                    <p>Up to 50% off on selected items</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="offer">
+                <img src="offer3.jpg" alt="Offer 3">
+                <div class="offer-details">
+                    <h3>New Arrivals</h3>
+                    <p>Discover the latest trends</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div></div>
+    <hr>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <p>© 2024 New Me. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
