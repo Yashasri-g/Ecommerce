@@ -6,4 +6,4 @@ Build a well-organized HTML structure for the E-commerce Product Page. Include e
  Display relevant information about the product, including its name, description, and price. Include a high-quality image of the product to give users a clear visual representation. Include a high-quality image of the product to give users a clear visual representation. Create a simple and intuitive navigation structure to facilitate easy movement within the page. Ensure that the page layout is responsive, adapting seamlessly to different screen sizes. Write clean and well-commented code to enhance readability and maintainability.
 # New Me 
 It is a website of fashion.New Me collection with wide range of products and exciting offers.
-Can have a look at it. New Me[https://yashasri-g.github.io/Ecommerce/]
+Can have a look at it.[New Me](https://yashasri-g.github.io/Ecommerce/)
